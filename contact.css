@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;  /* Soft background color */
+    text-align: center;
+    color: #333;  /* Dark text for readability */
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;  /* Dark gray-blue */
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1;  /* Soft light gray for hover effect */
+    text-decoration: underline;
+}
+
+/* Profile Image */
+.profile img {
+    width: 100px; /* Set the width to 100px */
+    height: 100px; /* Set the height to 100px */
+    border-radius: 50%; /* Make the image circular */
+    border: 3px solid #fff; /* Optional: white border around the image */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin-bottom: 20px; /* Space between the image and the text */
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #ffffff;  /* White background */
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #2c3e50;  /* Dark blue-gray */
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #7f8c8d;  /* Muted gray text */
+    line-height: 1.6;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.contact-info a {
+    color: #2980b9;  /* Soft blue color */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    color: #8e44ad;  /* Muted purple for hover effect */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;  /* Dark gray-blue */
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    #contact h2 {
+        font-size: 28px;
+    }
